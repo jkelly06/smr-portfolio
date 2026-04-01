@@ -10,6 +10,7 @@
         .glass { background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(14px); border: 1px solid rgba(56, 189, 248, 0.2); }
         .atomic-gradient { background: radial-gradient(circle at top right, #1e293b, #0f172a); }
         .bundle-badge { background: linear-gradient(90deg, #10b981 0%, #059669 100%); }
+        .card-glow:hover { border-color: rgba(56, 189, 248, 0.5); transform: translateY(-2px); transition: all 0.3s ease; }
     </style>
 </head>
 <body class="atomic-gradient text-slate-200 font-sans min-h-screen">
@@ -17,13 +18,13 @@
     <header class="py-16 px-6 text-center">
         <div class="max-w-4xl mx-auto">
             <div class="inline-block px-4 py-1 mb-6 border border-sky-500/30 rounded-full bg-sky-500/10 text-sky-400 text-xs font-bold tracking-widest uppercase">
-                Secure Infrastructure Assets | 2026 Portfolio
+                Secure SMR Infrastructure Assets | 2026
             </div>
             <h1 class="text-4xl md:text-6xl font-extrabold mb-6 text-white tracking-tight">
                 The SMR Digital Suite
             </h1>
             <p class="text-lg text-slate-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-                Premium digital acquisitions for Small Modular Reactor deployment, 
+                Strategic digital acquisitions for Small Modular Reactor deployment, 
                 Baseload Grid Power, and AI-Energy Integration.
             </p>
         </div>
@@ -32,107 +33,58 @@
     <main class="max-w-6xl mx-auto px-6 pb-12">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             
-            <div class="glass p-8 rounded-2xl transition-all hover:border-sky-500/50">
+            <div class="glass p-8 rounded-2xl">
                 <h3 class="text-sky-400 font-bold mb-4 uppercase text-xs tracking-widest">Core Infrastructure</h3>
                 <div class="space-y-3 font-mono text-sm border-l-2 border-sky-500/20 pl-4">
-                    <p class="hover:text-white transition">powersmr.com</p>
-                    <p class="hover:text-white transition">sovereignsmr.com</p>
-                    <p class="hover:text-white transition">smrcampus.com</p>
-                    <p class="hover:text-white transition">smrbaseload.com</p>
+                    <p>powersmr.com</p>
+                    <p>sovereignsmr.com</p>
+                    <p>smrcampus.com</p>
+                    <p>smrbaseload.com</p>
                 </div>
             </div>
 
-            <div class="glass p-8 rounded-2xl transition-all hover:border-emerald-500/50">
+            <div class="glass p-8 rounded-2xl">
                 <h3 class="text-emerald-400 font-bold mb-4 uppercase text-xs tracking-widest">AI & Operations</h3>
                 <div class="space-y-3 font-mono text-sm border-l-2 border-emerald-500/20 pl-4">
-                    <p class="hover:text-white transition">smrinference.com</p>
+                    <p>smrinference.com</p>
                     <div class="py-1">
                         <p class="text-white font-bold">smrvalley.com</p>
                         <p class="text-white font-bold inline-flex items-center">
                             smrvalleys.com 
-                            <span class="ml-2 text-[9px] bundle-badge text-white px-2 py-0.5 rounded-full uppercase tracking-tighter">Defensive Bundle</span>
+                            <span class="ml-2 text-[9px] bundle-badge text-white px-2 py-0.5 rounded-full uppercase tracking-tighter">Bundle</span>
                         </p>
                     </div>
-                    <p class="hover:text-white transition">smroperations.com</p>
-                    <p class="hover:text-white transition">smrprovider.com</p>
+                    <p>smroperations.com</p>
+                    <p>smrprovider.com</p>
                 </div>
             </div>
 
-            <div class="glass p-8 rounded-2xl transition-all hover:border-amber-500/50">
+            <div class="glass p-8 rounded-2xl">
                 <h3 class="text-amber-400 font-bold mb-4 uppercase text-xs tracking-widest">Governance & Audit</h3>
                 <div class="space-y-3 font-mono text-sm border-l-2 border-amber-500/20 pl-4">
-                    <p class="hover:text-white transition">smrgovernance.com</p>
-                    <p class="hover:text-white transition">smraudit.com</p>
-                    <p class="hover:text-white transition">smrvalidation.com</p>
-                    <p class="hover:text-white transition">smrhandshake.com</p>
+                    <p>smrgovernance.com</p>
+                    <p>smraudit.com</p>
+                    <p>smrvalidation.com</p>
+                    <p>smrhandshake.com</p>
                 </div>
             </div>
         </div>
 
-        <div class="glass rounded-3xl overflow-hidden shadow-2xl border-white/5">
-            <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            <div class="glass p-5 rounded-xl border-sky-500/10 text-center card-glow">
+                <h4 class="text-sky-400 font-bold text-xs uppercase mb-2">Sovereign / Power</h4>
+                <p class="text-[11px] text-slate-400 leading-tight">Targets: National Energy Agencies & Utility Scale Developers.</p>
+            </div>
+            <div class="glass p-5 rounded-xl border-emerald-500/10 text-center card-glow">
+                <h4 class="text-emerald-400 font-bold text-xs uppercase mb-2">SMR Valleys</h4>
+                <p class="text-[11px] text-slate-400 leading-tight">Defensive Singular/Plural bundle for Data Center Campuses.</p>
+            </div>
+            <div class="glass p-5 rounded-xl border-amber-500/10 text-center card-glow">
+                <h4 class="text-amber-400 font-bold text-xs uppercase mb-2">Compliance Suite</h4>
+                <p class="text-[11px] text-slate-400 leading-tight">Assets for
+                  
+
+     
+                                
+                    
                 
-                <div class="p-8 md:p-12 border-b md:border-b-0 md:border-r border-slate-800">
-                    <h2 class="text-2xl font-bold mb-6 flex items-center">
-                        <i class="fas fa-shield-halved text-sky-500 mr-3"></i> Secure Inquiry
-                    </h2>
-                    
-                    <form action="https://formspree.io/f/mojplzkp" method="POST" class="space-y-4">
-                        <input type="text" name="_gotcha" style="display:none" />
-                        
-                        <div>
-                            <input type="text" name="name" placeholder="Full Name / Organization" required 
-                                class="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 text-white placeholder-slate-500 transition-all outline-none focus:border-sky-500">
-                        </div>
-                        <div>
-                            <input type="email" name="email" placeholder="Corporate Email Address" required 
-                                class="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 text-white placeholder-slate-500 transition-all outline-none focus:border-sky-500">
-                        </div>
-                        <div>
-                            <select name="bundle_interest" class="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 text-white transition-all outline-none focus:border-sky-500">
-                                <option value="Sovereign/Power">Sovereign / Power Bundle</option>
-                                <option value="SMR Valleys Bundle">SMR Valley & Valleys Bundle</option>
-                                <option value="Compliance Suite">Compliance & Audit Suite</option>
-                                <option value="Full Portfolio">Full Portfolio Acquisition</option>
-                            </select>
-                        </div>
-                        <textarea name="message" rows="3" placeholder="Briefly outline your acquisition timeline or offer..." 
-                            class="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 text-white placeholder-slate-500 transition-all outline-none focus:border-sky-500"></textarea>
-                        
-                        <button type="submit" class="w-full bg-sky-600 hover:bg-sky-500 text-white font-bold py-4 rounded-xl transition-all shadow-lg active:scale-95 shadow-sky-900/20">
-                            Submit Secure Offer
-                        </button>
-                    </form>
-                </div>
-
-                <div class="p-8 md:p-12 bg-slate-900/40 flex flex-col items-center justify-center text-center">
-                    <h3 class="text-white font-bold mb-4">Executive Access</h3>
-                    <div class="bg-white p-3 rounded-2xl shadow-inner mb-6 transition-transform hover:rotate-2">
-                        <img id="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https://YOUR_GITHUB_PAGES_URL" alt="Portfolio QR">
-                    </div>
-                    
-                    <div class="space-y-4">
-                        <div>
-                            <p class="text-[10px] text-slate-500 uppercase tracking-widest font-bold mb-1">Encrypted Contact</p>
-                            <a href="mailto:ceall06@proton.me" class="text-sky-400 font-mono text-sm hover:underline">ceall06@proton.me</a>
-                        </div>
-                        
-                        <div class="pt-4 flex flex-col items-center">
-                            <span class="text-[10px] text-slate-600 uppercase font-bold tracking-tighter">Chain Verification</span>
-                            <span class="text-xs font-mono text-slate-500">SMR-SECURE-2026-BETA</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </main>
-
-    <footer class="py-12 text-center text-slate-600 text-sm border-t border-slate-900">
-        <p>&copy; 2026 Energy Infrastructure Assets. All Transactions Secured via Escrow.</p>
-        <p class="mt-2 text-xs opacity-50 font-mono uppercase tracking-widest">Digital Asset Management via ceall06@proton.me</p>
-    </footer>
-
-</body>
-</html>
-          
