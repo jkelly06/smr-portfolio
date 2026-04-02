@@ -53,16 +53,164 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
 
-        .market-context {
-            font-size: 1.1em;
-            background-color: rgba(61, 122, 122, 0.1);
-            padding: 20px;
-            border: 1px solid var(--accent-teal);
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            background-color: var(--secondary-dark);
             border-radius: 4px;
-            margin-bottom: 40px;
+            overflow: hidden;
         }
 
-        .highlight { color: var(--accent-gold); font-weight: bold; }
+        table th {
+            background-color: var(--accent-teal);
+            color: white;
+            text-align: left;
+            padding: 15px;
+            text-transform: uppercase;
+            font-size: 0.85em;
+        }
+
+        table td {
+            padding: 15px;
+            border-bottom: 1px solid var(--border-dim);
+        }
+
+        /* FORM STYLING */
+        .contact-form-container {
+            background-color: var(--secondary-dark);
+            padding: 40px;
+            border-radius: 4px;
+            border: 1px solid var(--border-dim);
+            margin-top: 40px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0 20px 0;
+            background: var(--primary-dark);
+            border: 1px solid var(--border-dim);
+            color: white;
+            border-radius: 2px;
+            box-sizing: border-box;
+        }
+
+        .btn-submit {
+            background-color: var(--accent-teal);
+            color: white;
+            padding: 18px 40px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: 100%;
+        }
+
+        .btn-submit:hover {
+            background-color: #4e9c9c;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 80px;
+            font-size: 0.85em;
+            color: var(--text-dim);
+            border-top: 1px solid var(--border-dim);
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="logo">EMPIRE MECHANICS</div>
+        <p style="color: var(--accent-teal); font-weight: bold;">SMR DIGITAL INFRASTRUCTURE PORTFOLIO | 2026</p>
+    </header>
+
+    <div class="prospectus-header">
+        <h1>Institutional Divestment Prospectus</h1>
+        <p><strong>Verified Custodian:</strong> ceall06@proton.me | <strong>Direct Access:</strong> smrvalley.com</p>
+    </div>
+
+    <h2>Strategic Asset Inventory & Pricing</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Asset Group</th>
+                <th>Included Domains</th>
+                <th>Individual Buy Now</th>
+                <th>Bundle Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td><strong>The Power Core</strong></td><td>powersmr.com, sovereignsmr.com, smrbaseload.com</td><td>$75,000</td><td>$195,000</td></tr>
+            <tr><td><strong>The Nexus Hub</strong></td><td>smrvalley.com, smrvalleys.com, smrinference.com</td><td>$65,000</td><td>$155,000</td></tr>
+            <tr><td><strong>The Campus Suite</strong></td><td>smrcampus.com, smrhubs.com</td><td>$45,000</td><td>$90,000</td></tr>
+            <tr><td><strong>The Governance Stack</strong></td><td>smroperations.com, smrprovider.com, smrgovernance.com, smraudit.com, smrvalidation.com, smrhandshake.com</td><td>$25,000</td><td>$165,000</td></tr>
+        </tbody>
+    </table>
+
+    <div class="contact-form-container">
+        <h2>Initiate Acquisition Inquiry</h2>
+        <p>Submit your interest below. Our custodian will contact you within 24 hours.</p>
+        
+        <form action="https://formspree.io/f/<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empire Mechanics | SMR Digital Infrastructure</title>
+    <style>
+        :root {
+            --primary-dark: #0f1717;
+            --secondary-dark: #1a2626;
+            --accent-teal: #3d7a7a;
+            --accent-gold: #d4af37;
+            --text-light: #e0e6e6;
+            --text-dim: #a0b0b0;
+            --border-dim: #2c3d3d;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-light);
+            background-color: var(--primary-dark);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 40px;
+            border-bottom: 1px solid var(--accent-teal);
+        }
+
+        .logo {
+            font-size: 2.8em;
+            font-weight: bold;
+            color: #ffffff;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .prospectus-header {
+            background: var(--secondary-dark);
+            padding: 30px;
+            border-radius: 4px;
+            margin: 40px 0;
+            border-left: 6px solid var(--accent-teal);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
 
         table {
             width: 100%;
@@ -87,42 +235,39 @@
             border-bottom: 1px solid var(--border-dim);
         }
 
-        .acquisition-section {
+        /* FORM STYLING */
+        .contact-form-container {
             background-color: var(--secondary-dark);
             padding: 40px;
             border-radius: 4px;
             border: 1px solid var(--border-dim);
-            margin-top: 60px;
+            margin-top: 40px;
         }
 
-        .protocol-card {
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid var(--border-dim);
-        }
-
-        .protocol-title {
-            color: var(--accent-teal);
-            font-size: 1.25em;
-            display: block;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        .btn-contact {
-            display: inline-block;
-            background-color: var(--accent-teal);
-            color: white !important;
-            padding: 18px 40px;
-            text-decoration: none !important;
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0 20px 0;
+            background: var(--primary-dark);
+            border: 1px solid var(--border-dim);
+            color: white;
             border-radius: 2px;
+            box-sizing: border-box;
+        }
+
+        .btn-submit {
+            background-color: var(--accent-teal);
+            color: white;
+            padding: 18px 40px;
+            border: none;
+            cursor: pointer;
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 1px;
-            transition: background 0.3s ease;
+            width: 100%;
         }
 
-        .btn-contact:hover {
+        .btn-submit:hover {
             background-color: #4e9c9c;
         }
 
@@ -146,16 +291,8 @@
 
     <div class="prospectus-header">
         <h1>Institutional Divestment Prospectus</h1>
-        <p style="color: var(--text-dim);">
-            <strong>Verified Custodian:</strong> ceall06@proton.me | 
-            <strong>Direct Access:</strong> smrvalley.com
-        </p>
+        <p><strong>Verified Custodian:</strong> ceall06@proton.me | <strong>Direct Access:</strong> smrvalley.com</p>
     </div>
-
-    <section class="market-context">
-        <h3>The 2026 Nuclear-AI Inflection</h3>
-        <p>As of Q2 2026, the SMR sector has transitioned into full "Construction & Deployment"[cite: 5]. Following the <span class="highlight">NRC's Gen-IV permits for Terra Power</span> and <span class="highlight">Oklo's 1.2 GW Meta agreement</span>, these assets represent the definitive digital real estate for the $2.5T infrastructure shift[cite: 6, 7].</p>
-    </section>
 
     <h2>Strategic Asset Inventory & Pricing</h2>
     <table>
@@ -168,63 +305,58 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td><strong>The Power Core</strong></td>
-                <td>powersmr.com, sovereignsmr.com, smrbaseload.com</td>
-                <td>$75,000</td>
-                <td>$195,000</td>
-            </tr>
-            <tr>
-                <td><strong>The Nexus Hub</strong></td>
-                <td>smrvalley.com, smrvalleys.com, smrinference.com</td>
-                <td>$65,000</td>
-                <td>$155,000</td>
-            </tr>
-            <tr>
-                <td><strong>The Campus Suite</strong></td>
-                <td>smrcampus.com, smrhubs.com</td>
-                <td>$45,000</td>
-                <td>$90,000</td>
-            </tr>
-            <tr>
-                <td><strong>The Governance Stack</strong></td>
-                <td>smroperations.com, smrprovider.com/smrpoviders.com, smrgovernance.com, smraudit.com, smrvalidation.com, smrhandshake.com</td>
-                <td>$25,000</td>
-                <td>$165,000</td>
-            </tr>
+            <tr><td><strong>The Power Core</strong></td><td>powersmr.com, sovereignsmr.com, smrbaseload.com</td><td>$75,000</td><td>$195,000</td></tr>
+            <tr><td><strong>The Nexus Hub</strong></td><td>smrvalley.com, smrvalleys.com, smrinference.com</td><td>$65,000</td><td>$155,000</td></tr>
+            <tr><td><strong>The Campus Suite</strong></td><td>smrcampus.com, smrhubs.com</td><td>$45,000</td><td>$90,000</td></tr>
+            <tr><td><strong>The Governance Stack</strong></td><td>smroperations.com, smrprovider.com, smrgovernance.com, smraudit.com, smrvalidation.com, smrhandshake.com</td><td>$25,000</td><td>$165,000</td></tr>
         </tbody>
     </table>
 
-    <section class="acquisition-section">
-        <h2>Secure Acquisition Protocols</h2>
-        <div class="protocol-card">
-            <span class="protocol-title">1. Direct Institutional Transfer (0% Fee)</span>
-            <p>For primary bundle acquisitions, we utilize <strong>Escrow.com</strong> to provide a 0% marketplace-fee environment, ensuring 100% of capital is allocated directly to asset value.</p>
-        </div>
-
-        <div class="protocol-card">
-            <span class="protocol-title">2. Global Marketplace Checkout</span>
-            <p>Individual "Buy Now" transactions are supported via <strong>SedoMLS</strong> and <strong>Afternic</strong> for rapid, automated transfer[cite: 9, 10].</p>
-        </div>
-
-        <div class="protocol-card">
-            <span class="protocol-title">3. Structured Financing (Opex)</span>
-            <p>12-month <strong>Lease-to-Own (LTO)</strong> options are available for the Governance Stack via <strong>Dan.com</strong>, facilitating immediate deployment under an Opex budget.</p>
-        </div>
-
-        <div style="text-align: center; margin-top: 40px;">
-            <a href="mailto:ceall06@proton.me?subject=SMR%20Portfolio%20Acquisition%20Inquiry" class="btn-contact">Initiate Acquisition Inquiry</a>
-        </div>
-    </section>
+    <div class="contact-form-container">
+        <h2>Initiate Acquisition Inquiry</h2>
+        <p>Submit your interest below. Our custodian will contact you within 24 hours.</p>
+        
+        <form action="https://formspree.io/f/mojplzkp" method="POST">
+            <label>Professional Email Address</label>
+            <input type="email" name="email" required placeholder="name@company.com">
+            
+            <label>Asset Group(s) of Interest</label>
+            <input type="text" name="interest" placeholder="e.g. The Power Core Bundle">
+            
+            <label>Message / Offer Details</label>
+            <textarea name="message" rows="5" required placeholder="Provide brief context for the inquiry..."></textarea>
+            
+            <button type="submit" class="btn-submit">Submit Inquiry</button>
+        </form>
+    </div>
 
     <footer class="footer">
-        <p>CONFIDENTIAL: Institutional Divestment Briefing [cite: 1]</p>
-        <p>All assets verified via TXT-Handshake [cite: 9]</p>
+        <p>CONFIDENTIAL: Institutional Divestment Briefing. All assets verified via TXT-Handshake.</p>
+        <p>&copy; 2026 Empire Mechanics Hub. All Rights Reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>" method="POST">
+            <label>Professional Email Address</label>
+            <input type="email" name="email" required placeholder="name@company.com">
+            
+            <label>Asset Group(s) of Interest</label>
+            <input type="text" name="interest" placeholder="e.g. The Power Core Bundle">
+            
+            <label>Message / Offer Details</label>
+            <textarea name="message" rows="5" required placeholder="Provide brief context for the inquiry..."></textarea>
+            
+            <button type="submit" class="btn-submit">Submit Inquiry</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>CONFIDENTIAL: Institutional Divestment Briefing. All assets verified via TXT-Handshake.</p>
         <p>&copy; 2026 Empire Mechanics Hub. All Rights Reserved.</p>
     </footer>
 </div>
 
 </body>
 </html>
-
        
