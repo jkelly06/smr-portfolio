@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /smr-strategic-assets-2026.pdf
+
+# Point Google directly to your sitemap
+Sitemap: https://smrvalley.com/sitemap.xml
