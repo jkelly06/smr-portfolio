@@ -1,3 +1,11 @@
+## 📊 Portfolio Quick Stats
+- **Sector:** Small Modular Reactors (SMR) / Gen-IV Nuclear
+- **Asset Count:** 22 Strategic Domains
+- **Verification:** TXT-Handshake & SedoMLS Premium
+- **Primary Hub:** [smrvalley.com](https://smrvalley.com/)
+- **Divestment Year:** 2026
+
+
 # Strategic SMR & National AI Infrastructure Portfolio | 2026 Divestment
 
 [![Site Status](https://img.shields.io/website?url=https%3A%2F%2Fsmrvalley.com%2F)](https://smrvalley.com/)
