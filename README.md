@@ -13,13 +13,11 @@ This repository hosts the institutional landing page and divestment prospectus f
 ## 🏗 Portfolio Overview
 As of Q2 2026, following landmark **NRC Gen-IV permits** and the **1.2 GW Oklo-Meta energy agreement**, these 17 digital assets serve as the definitive infrastructure branding for the $2.5T SMR deployment shift.
 
-### Asset Inventory: 17 Strategic Domains
-| Category | Strategic Focus | Included Assets |
-| :--- | :--- | :--- |
-| **The Power Core** | Baseload & Grid Edge | powersmr.com, sovereignsmr.com, smrbaseload.com, behindthemetersmr.com |
-| **The Nexus Hub** | Regional Infrastructure | smrvalley.com, smrvalleys.com, smrinference.com, smrneutral.com |
-| **The Campus Suite** | Site Development | smrcampus.com, smrhubs.com |
-| **Operations Stack** | Governance & Validation | smroperations.com, smrprovider.com, smrproviders.com, smrgovernance.com, smraudit.com, smrvalidation.com, smrhandshake.com |
+### Asset Inventory: 18 Strategic Domains
+- **The Power Core (5):** powersmr.com, sovereignsmr.com, smrbaseload.com, behindthemetersmr.com, smrcapacity.com
+- **The Nexus Hub (4):** smrvalley.com, smrvalleys.com, smrinference.com, smrneutral.com
+- **The Campus Suite (2):** smrcampus.com, smrhubs.com
+- **Operations Stack (7):** smroperations.com, smrprovider.com, smrproviders.com, smrgovernance.com, smraudit.com, smrvalidation.com, smrhandshake.com
 
 ---
 
