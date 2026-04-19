@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61RWL7EE5Z"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?idG-61RWL7EE5Z"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -12,148 +12,183 @@
       gtag('config', 'G-61RWL7EE5Z');
     </script>
 
-    <title>SMR Strategic Assets | Institutional SMR Digital Infrastructure Portfolio 2026</title>
-    <meta name="description" content="Institutional divestment of 18 premium SMR digital infrastructure assets. Includes smrvalley.com, behindthemetersmr.com, and smrcapacity.com. Individual and bundle pricing available.">
+    <title>SMR Valley | Strategic SMR & Energy-Backed AI Asset Offering</title>
+    <meta name="description" content="Category-defining digital assets for SMR-powered AI infrastructure. Designed for developers, sovereign compute initiatives, and nuclear governance.">
     <link rel="canonical" href="https://smrvalley.com/">
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "SMR Strategic Digital Asset Portfolio",
-      "description": "18 premium digital infrastructure domains for the Small Modular Reactor (SMR) sector.",
-      "brand": { "@type": "Brand", "name": "Empire Mechanics" },
-      "offers": {
-        "@type": "AggregateOffer",
-        "offerCount": "18",
-        "priceCurrency": "USD",
-        "lowPrice": "25000",
-        "highPrice": "195000"
-      }
-    }
-    </script>
 
     <style>
         :root {
-            --primary-dark: #0f1717;
-            --secondary-dark: #1a2626;
+            --primary-dark: #0a0e0e;
+            --secondary-dark: #121a1a;
             --accent-teal: #3d7a7a;
             --accent-gold: #d4af37;
             --text-light: #e0e6e6;
-            --text-dim: #a0b0b0;
-            --border-dim: #2c3d3d;
+            --text-dim: #94a3a3;
+            --border-dim: #232e2e;
         }
 
-        body { font-family: 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: var(--text-light); background-color: var(--primary-dark); margin: 0; padding: 0; }
-        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
-        header { text-align: center; padding-bottom: 30px; border-bottom: 1px solid var(--accent-teal); margin-bottom: 30px; }
-        .logo { font-size: 2.8em; font-weight: bold; color: #ffffff; letter-spacing: 3px; text-transform: uppercase; }
+        body { font-family: 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: var(--text-light); background-color: var(--primary-dark); margin: 0; padding: 0; }
+        .container { max-width: 900px; margin: 0 auto; padding: 60px 20px; }
         
-        .smr-hero-container {
-            width: 100%; height: 300px; margin: 0 0 40px 0;
-            display: flex; align-items: center; justify-content: center;
-            background: radial-gradient(circle at center, #1a2a2a 0%, #0f1717 70%);
-            border-radius: 4px; border: 1px solid var(--accent-teal);
+        /* HERO SECTION */
+        header { text-align: left; margin-bottom: 60px; border-bottom: 1px solid var(--border-dim); padding-bottom: 40px; }
+        .logo { font-size: 3.5em; font-weight: 800; color: #ffffff; letter-spacing: 5px; text-transform: uppercase; margin: 0; }
+        .hero-sub { font-size: 1.4em; color: var(--accent-teal); font-weight: 500; margin-top: 10px; }
+        
+        /* BEST FIT SECTION */
+        .section-label { color: var(--accent-gold); text-transform: uppercase; font-size: 0.85em; font-weight: bold; letter-spacing: 2px; display: block; margin-bottom: 20px; }
+        .fit-list { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 60px; }
+        .fit-list li { background: var(--secondary-dark); padding: 15px; border-left: 3px solid var(--accent-teal); font-size: 0.95em; }
+
+        /* MACRO THESIS */
+        .thesis { font-size: 1.25em; border-left: 2px solid var(--accent-gold); padding-left: 30px; margin: 60px 0; color: var(--text-light); }
+        .thesis p { margin-bottom: 15px; }
+
+        /* FEATURED ASSET GROUPS */
+        .asset-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 60px; }
+        .asset-tier h3 { color: var(--accent-teal); text-transform: uppercase; font-size: 1em; letter-spacing: 2px; border-bottom: 1px solid var(--border-dim); padding-bottom: 10px; margin-bottom: 15px; }
+        .domain-list { list-style: none; padding: 0; font-family: 'Courier New', monospace; font-size: 1em; }
+        .domain-list li { margin: 6px 0; color: var(--text-light); }
+
+        /* WINDOW MATTERS (URGENCY) */
+        .urgency { background: rgba(212, 175, 55, 0.05); border: 1px solid rgba(212, 175, 55, 0.2); padding: 40px; margin: 60px 0; }
+        .urgency p { margin-top: 10px; color: var(--text-dim); }
+
+        /* ACQUISITION & TRANSACTION */
+        .details-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 60px; margin: 60px 0; }
+        .detail-item h4 { color: #ffffff; margin-bottom: 15px; text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; }
+        .detail-item ul { list-style: none; padding: 0; font-size: 0.9em; color: var(--text-dim); }
+        .detail-item li { margin-bottom: 10px; }
+
+        /* CONTACT & CONVERSION */
+        .cta-box { background: var(--secondary-dark); padding: 50px; border-radius: 4px; text-align: center; border: 1px solid var(--border-dim); }
+        .contact-line { font-size: 1.8em; font-weight: bold; color: #ffffff; text-decoration: none; display: block; margin: 20px 0; transition: color 0.3s; }
+        .contact-line:hover { color: var(--accent-teal); }
+        .pdf-link { color: var(--accent-teal); text-decoration: none; font-size: 0.9em; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+
+        form { margin-top: 30px; text-align: left; max-width: 500px; margin-left: auto; margin-right: auto; }
+        input, textarea { width: 100%; padding: 15px; margin-bottom: 15px; background: var(--primary-dark); border: 1px solid var(--border-dim); color: white; border-radius: 2px; }
+        .btn { background: var(--accent-teal); color: white; padding: 20px; border: none; width: 100%; font-weight: bold; cursor: pointer; text-transform: uppercase; letter-spacing: 2px; transition: 0.3s; }
+        .btn:hover { background: #4e9c9c; }
+
+        footer { text-align: center; padding: 60px 0; color: var(--text-dim); font-size: 0.8em; border-top: 1px solid var(--border-dim); }
+
+        @media (max-width: 768px) { 
+            .fit-list, .asset-grid, .details-grid { grid-template-columns: 1fr; } 
+            .logo { font-size: 2.5em; } 
         }
-
-        .prospectus-header { background: var(--secondary-dark); padding: 30px; border-radius: 4px; margin: 40px 0; border-left: 6px solid var(--accent-teal); }
-        .highlight { color: var(--accent-gold); font-weight: bold; }
-
-        table { width: 100%; border-collapse: collapse; margin: 30px 0; background-color: var(--secondary-dark); border-radius: 4px; overflow: hidden; font-size: 0.9em; }
-        table th { background-color: var(--accent-teal); color: white; text-align: left; padding: 15px; text-transform: uppercase; font-size: 0.8em; }
-        table td { padding: 15px; border-bottom: 1px solid var(--border-dim); vertical-align: top; }
-
-        .acquisition-center { background-color: var(--secondary-dark); padding: 40px; border-radius: 4px; border: 1px solid var(--border-dim); margin-top: 60px; }
-        form { margin-top: 20px; }
-        label { display: block; margin-bottom: 5px; font-weight: bold; color: var(--text-dim); font-size: 0.85em; text-transform: uppercase; }
-        input, textarea { width: 100%; padding: 12px; margin-bottom: 20px; background: var(--primary-dark); border: 1px solid var(--border-dim); color: white; border-radius: 2px; box-sizing: border-box; }
-        .btn-submit { background-color: var(--accent-teal); color: white; padding: 18px 40px; border: none; cursor: pointer; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; width: 100%; transition: 0.3s; }
-        .btn-submit:hover { background-color: #4e9c9c; }
-        .footer { text-align: center; margin-top: 80px; font-size: 0.85em; color: var(--text-dim); border-top: 1px solid var(--border-dim); padding-top: 30px; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <header>
-        <div class="logo">EMPIRE MECHANICS</div>
-        <p style="color: var(--accent-teal); font-weight: bold;">STRATEGIC SMR DIGITAL INFRASTRUCTURE | 2026</p>
+        <h1 class="logo">SMR VALLEY</h1>
+        <p class="hero-sub">Category-defining domains for SMR-powered AI infrastructure.</p>
     </header>
 
-    <main>
-        <div class="smr-hero-container">
-            <svg width="150" height="150" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <ellipse cx="50" cy="50" rx="45" ry="15" stroke="#3d7a7a" stroke-width="2" transform="rotate(0 50 50)"/>
-                <ellipse cx="50" cy="50" rx="45" ry="15" stroke="#3d7a7a" stroke-width="2" transform="rotate(60 50 50)"/>
-                <ellipse cx="50" cy="50" rx="45" ry="15" stroke="#3d7a7a" stroke-width="2" transform="rotate(120 50 50)"/>
-                <circle cx="50" cy="50" r="10" fill="#d4af37" stroke="#ffffff" stroke-width="1"/>
-            </svg>
+    <section>
+        <span class="section-label">Designed For</span>
+        <ul class="fit-list">
+            <li>SMR developers and operators</li>
+            <li>Energy-backed AI infrastructure platforms</li>
+            <li>National / sovereign compute initiatives</li>
+            <li>Nuclear governance and compliance systems</li>
+        </ul>
+    </section>
+
+    <section class="thesis">
+        <p>As AI scales, compute is moving closer to power.</p>
+        <p style="font-size: 0.9em; color: var(--text-dim);">SMR and energy-backed AI infrastructure are moving from thesis to deployment. As grid constraints intensify and compute demand accelerates, nuclear-backed systems are becoming strategic assets in the next infrastructure cycle.</p>
+    </section>
+
+    <section>
+        <span class="section-label">Featured Asset Groups</span>
+        <div class="asset-grid">
+            <div class="asset-tier">
+                <h3>1. Power Core</h3>
+                <ul class="domain-list">
+                    <li>powersmr.com</li>
+                    <li>sovereignsmr.com</li>
+                    <li>smrbaseload.com</li>
+                    <li>smrcapacity.com</li>
+                </ul>
+            </div>
+            <div class="asset-tier">
+                <h3>2. SMR Valley Hub</h3>
+                <ul class="domain-list">
+                    <li>smrvalley.com</li>
+                    <li>smrvalleys.com</li>
+                    <li>smrinference.com</li>
+                    <li>smrneutral.com</li>
+                </ul>
+            </div>
+            <div class="asset-tier">
+                <h3>3. National AI Stack</h3>
+                <ul class="domain-list">
+                    <li>nationalaiedge.com</li>
+                    <li>nationalaifabric.com</li>
+                    <li>nationalaisecure.com</li>
+                    <li>nationalaineural.com</li>
+                </ul>
+            </div>
+            <div class="asset-tier">
+                <h3>4. Governance Layer</h3>
+                <ul class="domain-list">
+                    <li>smroperations.com</li>
+                    <li>smrgovernance.com</li>
+                    <li>smraudit.com</li>
+                </ul>
+            </div>
         </div>
+    </section>
 
-        <section class="prospectus-header">
-            <h1>Institutional SMR Asset Divestment</h1>
-            <p><strong>Verified Custodian:</strong> ceall06@proton.me | <strong>Hub:</strong> smrvalley.com</p>
-            <a href="smr-strategic-assets-2026.pdf" style="color:var(--accent-gold); text-decoration:none; font-weight:bold;" download>Download 2026 Strategic Prospectus (PDF)</a>
-        </section>
+    <section class="urgency">
+        <strong>Why This Window Matters</strong>
+        <p>As deployment accelerates, category-defining digital assets are acquired early. Once naming is locked at the platform, project, or governance layer, comparable assets become harder to replace and more expensive to assemble.</p>
+    </section>
 
-        <h2>Strategic Inventory: 18 Assets</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Asset Group</th>
-                    <th>Core Domains</th>
-                    <th>Individual BN</th>
-                    <th>Bundle Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>The Power Core</strong></td>
-                    <td>powersmr.com, sovereignsmr.com, smrbaseload.com, behindthemetersmr.com, <strong>smrcapacity.com</strong></td>
-                    <td>$75,000</td>
-                    <td><strong>$245,000</strong></td>
-                </tr>
-                <tr>
-                    <td><strong>The Nexus Hub</strong></td>
-                    <td>smrvalley.com, smrvalleys.com, smrinference.com, smrneutral.com</td>
-                    <td>$65,000</td>
-                    <td><strong>$155,000</strong></td>
-                </tr>
-                <tr>
-                    <td><strong>The Campus Suite</strong></td>
-                    <td>smrcampus.com, smrhubs.com</td>
-                    <td>$45,000</td>
-                    <td><strong>$90,000</strong></td>
-                </tr>
-                <tr>
-                    <td><strong>Operations & Validation</strong></td>
-                    <td>smrprovider.com, smrproviders.com, smrgovernance.com, smrvalidation.com, smrhandshake.com, smroperations.com, smraudit.com</td>
-                    <td>$25,000</td>
-                    <td><strong>$165,000</strong></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <div class="acquisition-center">
-            <h2>Acquisition Command Center</h2>
-            <form action="https://formspree.io/f/mojplzkp" method="POST">
-                <input type="email" name="email" required placeholder="Professional Email">
-                <input type="text" name="interest" placeholder="Asset or Bundle of Interest">
-                <textarea name="message" rows="4" required placeholder="Institutional inquiry context..."></textarea>
-                <button type="submit" class="btn-submit">Initiate Secure Inquiry</button>
-            </form>
+    <section class="details-grid">
+        <div class="detail-item">
+            <h4>Acquisition Structure</h4>
+            <ul>
+                <li><strong>Strategic Bundle Acquisition</strong><br>Typical range: mid five-figure to low six-figure valuations.</li>
+                <li><strong>National AI Stack</strong><br>Pricing available upon inquiry.</li>
+                <li><strong>Full Portfolio Acquisition</strong><br>Available for strategic buyers seeking category-level control.</li>
+            </ul>
         </div>
-    </main>
+        <div class="detail-item">
+            <h4>Transaction Options</h4>
+            <ul>
+                <li>• Secure escrow-supported transfer</li>
+                <li>• Marketplace-supported transfer options</li>
+                <li>• Structured acquisition discussions available</li>
+            </ul>
+        </div>
+    </section>
 
-    <footer class="footer">
-        <p>CONFIDENTIAL: Institutional Divestment Briefing. Verified via TXT-Handshake.</p>
+    <section class="cta-box">
+        <p>For acquisition inquiries or strategic discussions:</p>
+        <a href="mailto:ceall06@proton.me" class="contact-line">ceall06@proton.me</a>
+        
+        <form action="https://formspree.io/f/mojplzkp" method="POST">
+            <input type="email" name="email" placeholder="Professional Email" required>
+            <textarea name="message" rows="4" placeholder="Brief context for inquiry..." required></textarea>
+            <button type="submit" class="btn">Initiate Discussion</button>
+        </form>
+
+        <br><br>
+        <a href="smr-strategic-assets-2026.pdf" class="pdf-link" download>View Full Strategic Prospectus (Optional)</a>
+    </section>
+
+    <footer>
+        <p>Confidential strategic asset briefing.</p>
         <p>&copy; 2026 Empire Mechanics Hub. All Rights Reserved.</p>
     </footer>
 </div>
 
 </body>
 </html>
-
 
       
         
